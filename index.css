@@ -1,0 +1,496 @@
+body{
+    /* background-image: url('https://cdn.wallpapersafari.com/43/28/3vlobW.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: black;
+    margin: 0px;
+}
+.nav{
+    display: flex;
+    height:10%;
+    width: 100%;
+    background-color: #0f3057;
+}
+.left{
+    display: inline-block;
+    align-items: center;
+    margin-left: 5%;
+}
+#bell-icon{
+color: #f8f1f1;
+font-size: 1.8rem;
+margin-top: 1.4%;
+margin-left: 3%;
+}
+.right{
+    display: inline-block;
+    float: right;
+}
+#search-bar{
+    align-self: center;
+    width:20%;
+    height:50%;
+    margin-left:5%;
+    border: 1px solid #f8f1f1;
+    color: #000000;
+}
+#search-bar:hover{
+    background-color:#f1d4d4
+}
+#logo-heading{
+    display: inline-block;
+    font-family: cursive;
+    font-size: 1.8rem;
+    margin-top: 1.5%;
+    margin-left: 1%;
+    color: #f8f1f1;
+}
+#logo-image{
+    height:100%;
+    width:7%;
+    border-radius: 70%;
+    margin-left: -3%;
+}
+.content{
+    width: 100%;
+
+    background-color: black;
+}
+#bell-icon{
+    height:50%;
+    width: 5%;
+}
+.favourites-heading{
+    display: inline-block;
+    font-size: 1.8rem;
+    margin-top: 1.3%;
+    margin-left: 10%;
+    color: #f8f1f1;
+    font-family: cursive;
+    text-decoration: underline;
+}
+.favourites-heading:hover{
+    color:red;
+    transition: all .5s ease-in-out;
+}
+
+.sign-out{
+    color: white;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: chocolate;
+}
+.sign-out:hover{
+    background-color: crimson;
+    color: #000000;
+}
+#user-image{
+    height:100%;
+    width:5%;
+    margin-left: 2%;
+    border-radius: 50%;
+}
+.btn{
+    box-sizing: border-box;
+    margin-left: 25%;
+    margin-top: 8%;
+    width: 120%;
+
+}
+#name{
+    margin-left: -15%;
+}
+.dropdown-toggle::after{
+    margin-left: 20%;
+}
+.Dropdown{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+.section-left{
+    height: 100%;
+    width:65%;
+    margin-left: 5%;
+    float: left;
+    /* background-image: url('https://cdn.wallpapersafari.com/43/28/3vlobW.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    overflow: scroll;
+
+}
+.section-right{
+    margin-top: 2%;
+    height: 100%;
+    width:25%;
+    margin-left: 5%;
+    float:right;
+    /* background-image: url('https://cdn.wallpapersafari.com/43/28/3vlobW.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.box{
+    height:20%;
+    width:100%;
+    background-color: #0f3057;
+    margin-top: 5%;
+}
+.Box-2{
+    height:12%;
+    width:100%;
+    background-color: #008891;
+    margin-top: 5%;
+}
+#queue{
+    /* overflow: scroll; */
+    height: 40%;
+    
+}
+#queue-scroll{
+    overflow: scroll;
+    height: 85%;
+}
+#playlist{
+    margin-top: 5%;
+    /* overflow: scroll; */
+    height: 60%;
+}
+#playlist-scroll{
+    overflow: scroll;
+    height: 100%;
+}
+.artist-container{
+    width:100%;
+    margin-left: 0%;
+    margin-top: 2%;
+    height: 40%;
+    display: flex;
+    background-color: #595b83;
+}
+h1{
+    color:white;
+}
+.artists{
+    box-sizing: border-box;
+    height:100%;
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+
+}
+
+.artist{
+    height:100%;
+    width:100%;
+} 
+.artist:hover{
+    border-radius: 50%;
+    transform: scale(1.1);
+    transition: all ease-in-out .5s;
+}
+.latest-release-container{
+   
+    background-color: #1a1a2e;
+    height:43%;
+    margin-top: 5%;
+}
+#latest-release-heading{
+    margin-left: 35%;
+    color: #f8f1f1;
+  
+}
+#adjust{
+    display: flex;
+    flex-direction: row;
+   
+}
+.l-r-c{
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    height: 30%;
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 5%;
+   
+}
+.latest-release-image{
+    display: inline-block;
+    height: 100%;
+    width:30%;
+
+    /* background-image: url('https://www.celebrityborn.com/admin/assets/images/people/1wYapf4yeWTwSfcm3WBM_2018_02_16.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.l-r-t{
+    display: inline-block;
+    font-size: 1.3rem;
+    color: white;
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 50%;
+    
+}
+.date{
+    display: block;
+    margin-left: 7%;
+    font-size: 1rem;
+}
+.l-r-i{
+    height: 90%;
+    width: 30%;
+}
+.l-r-a{
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: 5%;
+    color:white;
+    margin-left: 5%;
+}
+#popular-artist-container{
+    background-color: #0f3057;
+    height:40%;
+    margin-top: 5%;
+}
+.p-a-i{
+    display: inline-block;
+    height:55%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width:17%;
+    margin-left: 2%;
+    border-radius: 50%;
+}
+
+
+
+.p-a-i:hover{
+ 
+    transform: scale(.9);
+}
+.dummy-name{
+    margin-left: 4%;
+    font-size: 1.5rem;
+    color: white;
+}
+.extra-width{
+    margin-left: 8%;
+    font-size: 1.5rem;  
+    color: white;
+ 
+}
+.extra{
+    margin-left: 11%;
+    font-size: 1.5rem; 
+    color: white;
+
+}
+.t{
+    background-size: cover;
+    height:100%;
+    width: 100%;
+}
+#mike{
+    display: flex;
+    background-color: #495464;
+    height:25%;
+    margin-top: 5%;
+}
+#Mike-image{
+    width: 17%;
+    margin-left: 2%;
+    height:70%;
+    margin-top:3%;
+}
+.song-types{
+    width: 14%;
+    margin-left: 2%;
+    height:65%;
+    margin-top:4%;
+    border-radius: 50%;
+}
+#types-of-songs{
+    display: flex;
+    background-color: #8675a9;
+    height:40%;
+    margin-top: 5%;
+}
+.party-image{
+    height: 70%;
+    margin-top: 5%;
+    width:30%;
+    margin-left: 2%;
+
+}
+.party-image:hover{
+        transform: scale(1.2);
+}
+#party-text{
+    position: absolute;
+    font-size: 2rem;
+    color: black;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+#electronics-text{
+    position: absolute;
+    font-size: 2rem;
+    color: white;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+#road-text{
+    position: absolute;
+    font-size: 2rem;
+    color: white;
+    margin-left: 48%;
+    margin-top: 5%;
+}
+
+#latest-hindi{
+    background-color: #1c2b2d;
+    height:40%;
+    margin-top: 5%;
+   
+}
+#latest-english{
+    background-color: #625261;
+    height:40%;
+    margin-top: 5%;
+   
+}
+.latest-hindi-image{
+    display: inline-block;
+    height:55%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width:17%;
+    margin-left: 2%;
+    
+}
+
+.l-h-t-1{
+    font-size: 1.7rem;
+    margin-left: 5%;
+    color: cornsilk;
+}
+.l-h-t-2{
+    font-size: 1.7rem;
+    margin-left: 10%;
+    color: cornsilk;
+}
+.l-h-t-3{
+    font-size: 1.7rem;
+    margin-left: 10%;
+    color: cornsilk;
+}
+.l-h-t-4{
+    font-size: 1.7rem;
+    margin-left: 8%;
+    color: cornsilk;
+}
+.l-h-t-5{
+    font-size: 1.7rem;
+    margin-left: 4%;
+    color: cornsilk;
+}
+.l-e-t-1{
+    font-size: 1.4rem;
+    margin-left: 2%;
+    color: cornsilk;
+}
+.l-e-t-2{
+    font-size: 1.4rem;
+    margin-left: 5%;
+    color: cornsilk;
+}
+.l-e-t-3{
+    font-size: 1.4rem;
+    margin-left: 7%;
+    color: cornsilk;
+}
+#t{
+    background-color: red;
+    height:50%;
+    width: 30%;
+}
+.l-p-t-1{
+    font-size: 1.4rem;
+    margin-left: 5%;
+    color: cornsilk;
+}
+.l-p-t-2{
+    font-size: 1.4rem;
+    margin-left: 10%;
+    color: cornsilk;
+}
+#latest-punjabi{
+    background-color: #321f28;
+    height:40%;
+    margin-top: 5%;
+}
+.l-p-t-3{
+    font-size: 1.4rem;
+    margin-left: 9%;
+    color: cornsilk;
+}
+.box-1{
+    height:25%;
+    width:100%;
+    margin-top: 5%;
+    background-color: darkslategray;
+    display: flex;
+}
+.queue-image{
+    height:100%;
+    width: 23%;
+    margin-left: 5%;  
+}
+.queue-number{
+    display: inline-block;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.queue-song-name{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-top: 5%;
+    color:white;
+}
+.heart-image{
+    height: 50%;
+    width: 15%;
+    margin-left: 18%;
+    margin-top: 5%;
+    background-image: url('https://www.flaticon.com/svg/static/icons/svg/860/860808.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.heart-image:hover{
+    
+    transform: scale(1.3);
+    background-image: url('https://as1.ftcdn.net/jpg/01/88/01/26/500_F_188012670_h1QpIvfnKoRPFJzSMP8BPJvgfsmd8qaf.jpg');
+    transition: all ease-in-out .8s;
+}
+.heart-image:active{
+    transform: scale(1.3);
+    background-image: url('https://as1.ftcdn.net/jpg/01/88/01/26/500_F_188012670_h1QpIvfnKoRPFJzSMP8BPJvgfsmd8qaf.jpg');
+    transition: all ease-in-out .8s;
+}
+.box-2 {
+    height:15%;
+    width:100%;
+    margin-top: 5%;
+    background-color: darkslategray;
+    display: flex;
+}
+
+
