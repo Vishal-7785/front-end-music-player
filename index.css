@@ -17,10 +17,13 @@ body{
     margin-left: 5%;
 }
 #bell-icon{
-color: #f8f1f1;
-font-size: 1.8rem;
-margin-top: 1.4%;
-margin-left: 3%;
+    height:50%;
+    width: 5%;  
+    color: #f8f1f1;
+    font-size: 1.8rem;
+    margin-top: 1.4%;
+    margin-left: 3%;  
+
 }
 .right{
     display: inline-block;
@@ -56,10 +59,7 @@ margin-left: 3%;
 
     background-color: black;
 }
-#bell-icon{
-    height:50%;
-    width: 5%;
-}
+
 .favourites-heading{
     display: inline-block;
     font-size: 1.8rem;
