@@ -674,7 +674,7 @@ h1{
 
         animation: none;
     }
-    .dummy-name{
+    .dummy-name-3{
         margin-left: 3%;
     font-size: 1.3rem;
     color: white;
@@ -719,6 +719,14 @@ h1{
 
 }
 @media screen and (max-width:1200px){
+    .dummy-name{
+        margin-left: 2.4%;
+        font-size: 1.3rem;
+    }
+    .dummy-name-3{
+        margin-left: 3%;
+    font-size: 1.3rem;
+    }
     .l-h-t-1{
         font-size: 1.4rem;
         margin-left: 4%;
@@ -738,15 +746,104 @@ h1{
     }
 }
 
-/* @media screen and (max-width:1100px){
-    .section-left{
-        width: 100%;
+@media screen and (max-width:1150px){
+    .dummy-name{
+        margin-left: 3%;
+        font-size: 1.1rem;
     }
-    .section-right{
-    margin-top: 2%;
-    height: 100%;
-    width:100%;
-    margin-left: 3%;
+    .dummy-name-3{
+        margin-left: 6%;
+    font-size: 1.3rem;
     }
-} */
+    .l-h-t-1{
+        font-size: 1.4rem;
+        margin-left: 3%;
+    }
+    .l-h-t-2{
+        font-size: 1.4rem;
+    }
+    .extra{
+        font-size: 1.3rem;
+    }
+    .extra-width{
+        font-size: 1.3rem;
+    }
+    .l-h-t-3{
+        font-size: 1.4rem;
+    }
+    .l-h-t-4{
+        font-size: 1.4rem;
+    }
+    .l-h-t-5{
+        font-size: 1.4rem;
+        margin-left: 5%;
+    }
+    .l-e-t-1{
+        font-size: 1.2rem;
+        margin-left: 1%;
+        color: cornsilk;
+    }
+    .l-e-t-2{
+        font-size: 1.2rem;
+        margin-left: 4%;
+        color: cornsilk;
+    }
+    .l-e-t-3{
+        font-size: 1.2rem;
+        margin-left: 7%;
+    }
+    .l-p-t-2{
+        margin-left: 5%;
+    }
+    .l-p-t-3{
+        margin-left: 8%;
+    }
+    .queue-number{
+        font-size: 1.2rem; 
+        }
+    .queue-song-name{        
+        font-size: 1.2rem;
+        margin-left: 6%;
+    }
+}
 
+@media screen and (max-width:1030px){
+    #mike{
+        height: 20%;
+    }
+    #popular-artist-container{
+        height: 34%;
+    }
+    .latest-release-container{
+        height: 36%;
+    }
+    .dummy-name-3{
+        margin-left: 2%;
+    }
+    .l-h-t-4{
+        margin-left: 4%;
+    }
+    .l-h-t-5{
+        font-size: 1.4rem;
+        margin-left: 1%;
+    }
+    .l-e-t-2{
+        margin-left: 2%;
+    }
+    .l-e-t-3{
+        font-size: 1.2rem;
+        margin-left: 4%;
+    }
+    .l-p-t-3{
+        margin-left: 5%;
+    }
+    .queue-song-name{        
+        margin-left: 3%;
+    }
+    .heart-image{
+        margin-left: 26%;
+    }
+    #search-bar{
+        margin-left: 6%;
+    }
+}
