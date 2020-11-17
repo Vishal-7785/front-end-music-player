@@ -126,7 +126,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover; */
     /* overflow: scroll; */
-    overflow-y: scroll;
+    overflow: scroll;
 
 }
 .section-right{
@@ -680,7 +680,7 @@ h1{
     color: white;
     }
     .playlist-heading{
-        color:red;
+        color:white;
         margin-top: 10%;
     }
 
@@ -817,6 +817,9 @@ h1{
     .latest-release-container{
         height: 36%;
     }
+    #types-of-songs{
+        height: 30%;
+    }
     .dummy-name-3{
         margin-left: 2%;
     }
@@ -846,4 +849,291 @@ h1{
     #search-bar{
         margin-left: 6%;
     }
+    #latest-hindi{
+        height: 32%;
+    }
+    #latest-english{
+        height: 32%;
+    }
+    #latest-punjabi{
+        height: 32%;
+    }
+    .box-2 {
+        height: 15%;
+    }
+    .box-1{
+        height: 24%;
+    }
+}
+@media screen and (max-width:950px){
+    .dummy-name-3{
+        margin-left: 1%;
+    }
+    .extra{
+        margin-left: 6%;
+    }
+    .l-p-t-2{
+        margin-left: 2%;
+    }
+    .l-h-t-3{
+        margin-left: 7%;
+    }
+    .l-e-t-2{
+        margin-left: .4%;
+    }
+  
+}
+@media screen and (max-width:900px){
+  .section-left{
+      width: 100%;
+      overflow: visible;
+      height: auto;
+  }
+  #mike{
+    height: 24%;
+  }
+  #popular-artist-container{
+    height: 40%;
+  }
+  .latest-release-container{
+    height: 45%;
+  }
+  #types-of-songs{
+    height: 34%;
+  }
+  #latest-hindi{
+    height: 37%;
+  }
+  #latest-english{
+    height: 37%;
+  }
+  #latest-punjabi{
+    height: 37%;
+  }
+  .l-h-t-1{
+    font-size: 1.6rem;
+    margin-left: 4%;
+   }
+   .l-h-t-2{
+    font-size: 1.6rem;
+    margin-left: 9%;
+    }
+   .l-h-t-3{
+    font-size: 1.6rem;
+    margin-left: 13%;
+   }
+   .l-h-t-4{
+    font-size: 1.6rem;
+    margin-left: 5%;
+    }
+   .l-h-t-5{
+    font-size: 1.6rem;
+    margin-left: 4%;
+   }    
+   .dummy-name{
+    margin-left: 3%;
+    font-size: 1.6rem;
+    }
+   .dummy-name-3{
+    margin-left: 3%;
+    font-size: 1.6rem;
+   }
+   .extra{
+       font-size: 1.6rem;
+       margin-left: 8%;
+   }
+   .extra-width{
+    font-size: 1.6rem;
+    margin-left: 4%;
+   }
+   .l-e-t-1{
+    font-size: 1.5rem;
+    margin-left: 1%;
+   } 
+   .l-e-t-2{
+    font-size: 1.5rem;
+    margin-left: 2.5%;
+   }
+   .l-e-t-3{
+    font-size: 1.5rem;
+    margin-left: 7%;
+   }
+   .l-p-t-1{
+    font-size: 1.6rem;
+    margin-left: 5%;
+    color: cornsilk;
+   }
+   .l-p-t-2{
+    font-size: 1.6rem;
+    margin-left: 6%;
+    color: cornsilk;
+   }
+   .l-p-t-3{
+    margin-left: 9%;
+    font-size: 1.6rem;
+   }
+   .queue-number{
+    font-size: 1.5rem; 
+    }
+   .queue-song-name{        
+    font-size: 1.5rem;
+    margin-left: 6%;
+   }
+
+  .section-right{
+      display: flex;
+      float: left;
+      margin-left: 0px;
+    width: 100%;
+  }
+  .box-1{
+      height: 30%;
+  }
+  #queue{
+      width: 50%;
+      margin-left: 5%;
+  }
+  #playlist{
+      margin-left: 10%;
+      width: 40%;
+      padding-top: 0%;
+      height: 86%;
+  }
+  #queue-scroll{
+      overflow: visible;
+  }
+  
+ .box-2{
+     height: 11%;
+ }
+
+}
+@media screen and (max-width:820px){
+    .extra{
+        margin-left: 5%;
+    }
+    .l-h-t-3{
+        margin-left: 9%;
+       }
+       .l-e-t-2{
+        margin-left: 1%;
+       }
+       .l-e-t-3{
+        margin-left: 5%;
+       }
+
+}
+@media screen and (max-width:820px){
+    .l-h-t-1{
+        font-size: 1.2rem;
+        margin-left: 5%;
+       }
+       .l-h-t-2{
+        font-size: 1.2rem;
+        margin-left: 9%;
+        }
+       .l-h-t-3{
+        font-size: 1.2rem;
+        margin-left: 15%;
+       }
+       .l-h-t-4{
+        font-size: 1.2rem;
+        margin-left: 6%;
+        }
+       .l-h-t-5{
+        font-size: 1.2rem;
+        margin-left: 4%;
+       }    
+       .dummy-name{
+        margin-left: 3%;
+        font-size: 1.2rem;
+        }
+       .dummy-name-3{
+        margin-left: 6%;
+        font-size: 1.2rem;
+       }
+       .extra{
+           font-size: 1.2rem;
+           margin-left: 8%;
+       }
+       .extra-width{
+        font-size: 1.2rem;
+        margin-left: 8%;
+       }
+       .l-e-t-1{
+        font-size: 1.2rem;
+        margin-left: 1%;
+       } 
+       .l-e-t-2{
+        font-size: 1.2rem;
+        margin-left: 3%;
+       }
+       .l-e-t-3{
+        font-size: 1.2rem;
+        margin-left: 5%;
+       }
+       .l-p-t-1{
+        font-size: 1.2rem;
+        margin-left: 5%;
+        color: cornsilk;
+       }
+       .l-p-t-2{
+        font-size: 1.2rem;
+        margin-left: 6%;
+       }
+       .l-p-t-3{
+        margin-left: 9%;
+        font-size: 1.2rem;
+       }
+       #search-bar{
+           height: 40%;
+       }
+       #bell-icon{
+        margin-top: 2%;
+       }
+       .favourites-heading{
+           margin-left: 4%;
+       }
+       .your-image{
+        margin-left: 3%;
+        width: 10%;
+       }
+}
+@media screen and (max-width:820px){
+    .nav{
+        height: 7%;
+    }
+    #logo-heading{
+        font-size: 1.4rem;
+    }
+    .favourites-heading{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:750px){
+    #latest-release-head{
+        font-size: 2rem;
+    }
+    #latest-release-heading{
+        font-size: 2rem;
+    }
+    .dummy-name-3{
+        margin-left: 4%;
+       }
+       .extra{
+           margin-left: 7%;
+       }
+       .extra-width{
+        margin-left: 5%;
+       }
+       .l-h-t-3{
+           margin-left: 7%;
+       }
+       .l-e-t-2{
+        font-size: 1rem;
+        margin-left: 3%;
+       }
+       .l-p-t-2{
+        margin-left: 3%;
+       }
 }

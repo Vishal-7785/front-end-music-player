@@ -100,18 +100,18 @@ body{
 .name{
     display: inline-block;
     margin-top: 4%;
-    margin-left: 10%;
+    margin-left: 6%;
     font-size: 3rem;
     color: #f4f6ff;
 }
 .followers{
-    margin-left: 8%;
+    margin-left: 6%;
     font-size: 1.3rem;
     color: #f4f6ff;
 }
 
 .biography{
- margin-left: 8%;
+ margin-left: 4%;
  margin-right: 5%;
  font-size: 1.2rem;
  color: #f4f6ff;
@@ -362,3 +362,95 @@ body{
 .box-2:hover{
     background-color: cadetblue;
 }
+@media screen and (max-width:1300px){
+    .name{
+        font-size: 2.5rem;
+    }
+    .play-button{
+        width: 20%;
+        height: 13%;
+        font-size: 1.4rem;
+    }
+    .follow-link{
+        height: 12%;
+        width: 15%;
+    }
+    .follow-link a{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:1180px){
+    .name{
+        font-size: 2rem;
+    }
+    .play-button{
+        width: 20%;
+        height: 13%;
+        font-size: 1.2rem;
+    }
+    .follow-link{
+        height: 12%;
+        width: 15%;
+    }
+    .follow-link a{
+        font-size: 1rem;
+    }
+    .box-3{
+        height:10%;
+    }
+    .box-2 {
+        height:11%;
+    }
+    .box-1{
+        height:24%;
+    }
+    .artist-section{
+        height: 30%;
+    }
+    .biography{
+        font-size: 1.1rem;
+    }
+    .time-limit{
+        font-size: 1.4rem;
+        margin-top: 3%;
+    }
+    .queue-num{
+        font-size: 1.4rem;
+        margin-top: 3%;
+    }
+    .queue-name{
+        font-size: 1.5rem;
+    }
+    .queue-song-name{
+        font-size: 1.2rem;
+    }
+    .queue-number{
+        font-size: 1.2rem;
+    }
+    .heart-image{
+        margin-left: 25%;
+    }
+  
+}
+@media screen and (max-width:1050px){
+    .play-button{
+        font-size: 1rem;
+        margin-top: -2%;
+    }
+    .biography{
+        margin-right: 1%;
+    }
+    .name{
+        font-size: 1.7rem;
+    }
+    .followers{
+        font-size: 1rem;
+    }
+    .queue-heading{
+        font-size: 1.9rem;
+    }
+    .playlist-heading{
+        font-size: 1.9rem;
+    }
+}
+@media screen and (max-width:1050px)
